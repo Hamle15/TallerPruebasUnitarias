@@ -23,3 +23,17 @@
 <p>Finally, the sum test verifies that the sum operation works correctly. This includes cases with positive, negative, and zero numbers.</p>
 
 <p>We hope this project serves as a useful introduction to unit testing and its importance in software development.</p>
+
+<h2>Getting Started</h2>
+<p>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.</p>
+
+<h3>Prerequisites</h3>
+<p>You need to have Node.js and npm installed on your machine. If you don't have them, you can download and install from <a href="https://nodejs.org/">here</a>.</p>
+
+<h3>Installing</h3>
+<p>After cloning the repository, navigate to the project directory and run the following command to install the dependencies:</p>
+
+```bash
+npm install
+
+```
