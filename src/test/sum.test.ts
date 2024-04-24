@@ -15,4 +15,15 @@ describe('Sum tests', () => {
     const res = sum(1, 1);
     expect(res).toBeLessThanOrEqual(8);
   });
+
+  test('Probar que una suma de dos valores es menor a 12', () => {
+    const res = sum(1, 10);
+    expect(res).toBeLessThan(12);
+  });
+
+  test('Probar que una suma de dos valores es igual a 9', () => {
+    const res = sum(1, 8);
+    expect(res).toBe(9);
+  });
+
 })
