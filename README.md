@@ -35,5 +35,10 @@
 
 ```bash
 npm install
+```
+<h3>Running tests</h3>
+<p>After installing the dependencies, now you can run the tests using:</p>
 
+```bash
+npm run tests
 ```
