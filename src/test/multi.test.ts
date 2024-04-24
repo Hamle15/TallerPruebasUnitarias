@@ -10,4 +10,10 @@ describe("Multi tests", () => {
   test("Probar que 'number' es igual a 0", () => {
     expect(number).toBe(0);
   });
+  test("Probar que 'notTrue' es false", () => {
+    expect(notTrue).toBe(false);
+  });
+  test("Probar que 'notFalse' es true", () => {
+    expect(notFalse).toBe(true);
+  });
 });
